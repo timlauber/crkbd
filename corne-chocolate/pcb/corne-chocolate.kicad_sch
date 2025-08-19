@@ -2470,6 +2470,12 @@
 		(uuid "29d09990-ee43-436c-9304-6f52e90eeaf8")
 	)
 	(junction
+		(at 219.71 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bf9a78a-b612-417d-962f-302e62b2ce57")
+	)
+	(junction
 		(at 73.66 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2648,11 +2654,7 @@
 		(uuid "0af701be-e4c7-44cd-93be-ba698b36a1cb")
 	)
 	(no_connect
-		(at 264.16 129.54)
-		(uuid "4360fc63-ed32-4a05-924c-b666add83d24")
-	)
-	(no_connect
-		(at 226.06 129.54)
+		(at 236.22 129.54)
 		(uuid "5a7aa3f2-6404-4ab5-b999-228c60cbc98f")
 	)
 	(no_connect
@@ -2907,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 138.43) (xy 246.38 140.97)
+			(xy 210.82 138.43) (xy 210.82 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2974,16 +2976,6 @@
 			(type default)
 		)
 		(uuid "22371564-b64c-498d-a43c-9ae59fa8f85e")
-	)
-	(wire
-		(pts
-			(xy 254 127) (xy 246.38 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23259421-fb37-47ed-a563-6846b02a95d9")
 	)
 	(wire
 		(pts
@@ -3247,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 127) (xy 209.55 130.81)
+			(xy 219.71 127) (xy 219.71 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3474,6 +3466,16 @@
 			(type default)
 		)
 		(uuid "5a141cbf-136d-4085-9e41-d8f768ffa5f0")
+	)
+	(wire
+		(pts
+			(xy 210.82 127) (xy 219.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac7a802-e6be-4750-99f6-1430e81bd088")
 	)
 	(wire
 		(pts
@@ -3957,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 138.43) (xy 209.55 140.97)
+			(xy 219.71 138.43) (xy 219.71 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4077,16 +4079,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 124.46) (xy 270.51 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f9c7022-8656-4164-bb70-9d08b0c5fe6f")
-	)
-	(wire
-		(pts
 			(xy 46.99 69.85) (xy 73.66 69.85)
 		)
 		(stroke
@@ -4157,7 +4149,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 127) (xy 246.38 130.81)
+			(xy 210.82 127) (xy 210.82 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4387,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 127) (xy 209.55 127)
+			(xy 226.06 127) (xy 219.71 127)
 		)
 		(stroke
 			(width 0)
@@ -4407,7 +4399,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 124.46) (xy 232.41 124.46)
+			(xy 236.22 124.46) (xy 242.57 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5076,7 +5068,7 @@
 		(uuid "4ec43d1a-f69c-43ac-a6e1-d91e896981b6")
 	)
 	(label "Vbat"
-		(at 232.41 124.46 180)
+		(at 242.57 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5284,16 +5276,6 @@
 			(justify right bottom)
 		)
 		(uuid "cc739166-ae60-43c0-894a-4238775926f4")
-	)
-	(label "Vbat"
-		(at 270.51 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e01097a8-ae3a-4146-b53e-ff64ff935d7a")
 	)
 	(label "L1"
 		(at 113.03 157.48 0)
@@ -8424,7 +8406,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 246.38 135.89 0)
+		(at 210.82 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8432,7 +8414,7 @@
 		(dnp no)
 		(uuid "460faf21-9de5-48e9-bcac-8ca856b91f65")
 		(property "Reference" "J4"
-			(at 247.65 130.81 0)
+			(at 212.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +8422,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 250.19 136.906 0)
+			(at 214.63 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8430,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 246.38 134.366 90)
+			(at 210.82 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +8439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 134.366 90)
+			(at 210.82 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +8448,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 246.38 135.89 0)
+			(at 210.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8674,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 209.55 135.89 0)
+		(at 219.71 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8700,7 +8682,7 @@
 		(dnp no)
 		(uuid "51ae9fa4-2dc3-447b-9bdf-6d879569c60a")
 		(property "Reference" "J3"
-			(at 210.82 130.81 0)
+			(at 220.98 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +8690,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 213.614 137.16 0)
+			(at 223.774 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8698,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 209.55 134.366 90)
+			(at 219.71 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 134.366 90)
+			(at 219.71 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +8716,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 209.55 135.89 0)
+			(at 219.71 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +8741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 140.97 0)
+		(at 219.71 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8767,7 +8749,7 @@
 		(dnp no)
 		(uuid "538b7bac-9915-4116-a3f7-7165aff5b909")
 		(property "Reference" "#PWR014"
-			(at 209.55 147.32 0)
+			(at 219.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +8758,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 144.78 0)
+			(at 219.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 140.97 0)
+			(at 219.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 140.97 0)
+			(at 219.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +8784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 140.97 0)
+			(at 219.71 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,76 +8862,6 @@
 			(project "corne-chocolate"
 				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 259.08 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b08f73e-9b06-4fb6-bb9b-dcb8f3941cb2")
-		(property "Reference" "SW24"
-			(at 259.08 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 259.08 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 259.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9be3bb6-03c1-4078-a2e1-1fc812afe548")
-		)
-		(pin "2"
-			(uuid "6431f637-c3bd-4bb3-9cb7-3de3c8eda67f")
-		)
-		(pin "3"
-			(uuid "339a0f51-819f-4d5b-aca2-c726f4dfbafe")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -9089,7 +9001,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 220.98 127 0)
+		(at 231.14 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9098,7 +9010,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e95b228-f173-417d-829c-cabb4f812087")
 		(property "Reference" "SW23"
-			(at 220.98 119.38 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,15 +9018,15 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 220.98 121.92 0)
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 220.98 127 0)
+		(property "Footprint" "corne-chocolate:ECE_ESP2010"
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +9035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 127 0)
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +9044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 127 0)
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,7 +9797,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 140.97 0)
+		(at 210.82 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9893,7 +9805,7 @@
 		(dnp no)
 		(uuid "f5c015e1-9916-41f1-b4cc-1df5e2b36f23")
 		(property "Reference" "#PWR015"
-			(at 246.38 147.32 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,7 +9814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 144.78 0)
+			(at 210.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +9822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 140.97 0)
+			(at 210.82 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +9831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 140.97 0)
+			(at 210.82 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +9840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 140.97 0)
+			(at 210.82 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
