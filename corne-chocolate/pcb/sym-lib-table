@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "corne-chocolate-rescue")(type "Legacy")(uri "${KIPRJMOD}/corne-chocolate-rescue.lib")(options "")(descr ""))
   (lib (name "kbd")(type "Legacy")(uri "/Users/timlauber/Projects/Keyboards/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+  (lib (name "lagom")(type "KiCad")(uri "/Users/timlauber/Projects/Keyboards/lagom/PCB/lagom.kicad_sym")(options "")(descr ""))
+  (lib (name "corne")(type "KiCad")(uri "${KIPRJMOD}/corne.kicad_sym")(options "")(descr ""))
 )
