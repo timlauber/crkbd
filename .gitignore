@@ -32,3 +32,6 @@ gerber/
 
 # Backup files (exported from Pcbnew)
 *-backups/
+
+# Log files
+*.log
