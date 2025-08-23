@@ -750,261 +750,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:SK6812MINI"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "SK6812MINI"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812MINI_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "SK6812MINI_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SK6812MINI_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -2141,19 +1886,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Underglow LEDs"
-		(exclude_from_sim no)
-		(at 51.308 115.824 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fec3505-0393-4671-9a1f-fe3b2b9cdfd6")
-	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 269.24 85.09 0)
@@ -2459,16 +2191,6 @@
 	(no_connect
 		(at 265.43 68.58)
 		(uuid "db44250e-824f-4bd5-8930-b625a363bdec")
-	)
-	(wire
-		(pts
-			(xy 49.53 133.35) (xy 58.42 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0198dca7-09f2-4df7-9d9a-4a3d06328fbc")
 	)
 	(wire
 		(pts
@@ -2980,16 +2702,6 @@
 		)
 		(uuid "3aca918d-eba4-44d8-875e-1f7662834da6")
 	)
-	(polyline
-		(pts
-			(xy 280.67 161.29) (xy 121.92 161.29)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "3d0c2174-7a8b-4fd8-8f7d-bba98cdba57b")
-	)
 	(wire
 		(pts
 			(xy 151.765 138.43) (xy 158.115 138.43)
@@ -3019,16 +2731,6 @@
 			(type default)
 		)
 		(uuid "3eba5fab-3239-4fa4-86ae-8d3aa306f9cd")
-	)
-	(wire
-		(pts
-			(xy 60.96 157.48) (xy 69.85 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f4378cd-a128-441e-aa41-6e3711622422")
 	)
 	(wire
 		(pts
@@ -3162,16 +2864,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 157.48) (xy 93.98 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f094efc-5409-4102-b26f-00e0c96346a2")
-	)
-	(wire
-		(pts
 			(xy 68.58 41.91) (xy 76.2 41.91)
 		)
 		(stroke
@@ -3269,16 +2961,6 @@
 			(type default)
 		)
 		(uuid "5c6556f4-fc7d-4f3f-9551-e3d7a22710cc")
-	)
-	(wire
-		(pts
-			(xy 73.66 133.35) (xy 82.55 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c959a41-e79d-430d-bdca-03e3cd804049")
 	)
 	(wire
 		(pts
@@ -3432,16 +3114,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 157.48) (xy 21.59 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6a9ae2-4ff0-42a1-aa92-b0d1105890fc")
-	)
-	(wire
-		(pts
 			(xy 146.685 128.27) (xy 146.685 143.51)
 		)
 		(stroke
@@ -3592,16 +3264,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 133.35) (xy 19.05 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e3dad69-74a2-422a-896a-9967aef29f74")
-	)
-	(wire
-		(pts
 			(xy 157.48 52.07) (xy 157.48 57.15)
 		)
 		(stroke
@@ -3609,6 +3271,16 @@
 			(type default)
 		)
 		(uuid "7e991a9d-2bf3-4f08-942f-a202e78e6bbb")
+	)
+	(polyline
+		(pts
+			(xy 280.67 161.29) (xy 124.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7fb0f253-74c9-40c9-9365-f87830b7b15c")
 	)
 	(wire
 		(pts
@@ -3620,6 +3292,16 @@
 		)
 		(uuid "80b5e162-e715-4809-95a2-c6778baa1d99")
 	)
+	(polyline
+		(pts
+			(xy 124.46 161.29) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "81ce56d6-f61f-405b-972d-7ff59f47d95d")
+	)
 	(wire
 		(pts
 			(xy 45.72 45.72) (xy 49.53 45.72)
@@ -3629,16 +3311,6 @@
 			(type default)
 		)
 		(uuid "8263a8a5-4f38-4390-ade4-d6083d9b15af")
-	)
-	(wire
-		(pts
-			(xy 109.22 157.48) (xy 113.03 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85eb999f-7e22-4dd5-8d6f-2457c4cc8e17")
 	)
 	(wire
 		(pts
@@ -3762,16 +3434,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 133.35) (xy 19.05 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98cb21ef-b11a-414d-867b-b68a661f70c6")
-	)
-	(wire
-		(pts
 			(xy 73.66 74.93) (xy 76.2 74.93)
 		)
 		(stroke
@@ -3829,16 +3491,6 @@
 			(type default)
 		)
 		(uuid "9d6a408d-54fd-4f89-84e7-a2f1b99df9f2")
-	)
-	(polyline
-		(pts
-			(xy 121.92 173.99) (xy 121.92 107.95)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "9db6cd4f-62d0-4fce-ab63-fbabcb7dedc2")
 	)
 	(wire
 		(pts
@@ -3999,16 +3651,6 @@
 			(type default)
 		)
 		(uuid "b0ac3da7-9fb2-4ee5-a097-ac7b2f85522c")
-	)
-	(polyline
-		(pts
-			(xy 16.51 107.95) (xy 16.51 173.99)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "b1d792c7-20c7-4d24-85ca-8f6454d9e94e")
 	)
 	(wire
 		(pts
@@ -4422,16 +4064,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 157.48) (xy 45.72 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e69d284c-d689-4be9-9983-276201fdd50a")
-	)
-	(wire
-		(pts
 			(xy 72.39 45.72) (xy 76.2 45.72)
 		)
 		(stroke
@@ -4532,16 +4164,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 133.35) (xy 104.14 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1240016-6ae8-47b8-a1ef-33b70e5f4f18")
-	)
-	(wire
-		(pts
 			(xy 129.54 92.71) (xy 129.54 87.63)
 		)
 		(stroke
@@ -4599,16 +4221,6 @@
 			(type default)
 		)
 		(uuid "fb38be5b-d8dc-42d7-8e6b-e0d354a60417")
-	)
-	(polyline
-		(pts
-			(xy 16.51 173.99) (xy 121.92 173.99)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "fc34fade-69c4-4b99-bfc3-6d28dfa0ef54")
 	)
 	(wire
 		(pts
@@ -4920,16 +4532,6 @@
 		)
 		(uuid "a78819c9-9b09-4567-9160-5f6e960d8b1c")
 	)
-	(label "L1"
-		(at 185.42 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa377b48-4f17-41af-becd-fac4740f3bf1")
-	)
 	(label "L4"
 		(at 157.48 45.72 0)
 		(effects
@@ -4999,16 +4601,6 @@
 			(justify right bottom)
 		)
 		(uuid "cc739166-ae60-43c0-894a-4238775926f4")
-	)
-	(label "L1"
-		(at 113.03 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1a134c1-c79e-4134-8e49-83f102f9c44e")
 	)
 	(label "L9"
 		(at 129.54 81.28 0)
@@ -5568,22 +5160,22 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 104.14 133.35 0)
+		(at 185.42 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d19277ee-5b99-424f-9a4c-b27e5f4a91ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0734 133.35 0)
+			(at 178.4866 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6524,81 +6116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 101.6 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a77517a")
-		(property "Reference" "LED21"
-			(at 110.744 153.67 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 113.03 160.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "corne-chocolate:SK6812MINI_underglow_rev"
-			(at 102.87 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 104.14 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 101.6 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b404ec8-fbd7-4276-9b86-f0cfa7fce5af")
-		)
-		(pin "2"
-			(uuid "59e550ce-a24d-431c-9ede-f219fa1437f6")
-		)
-		(pin "3"
-			(uuid "827693d6-3a78-4603-9aaa-30b2c597b745")
-		)
-		(pin "4"
-			(uuid "66580ba7-55fa-4643-a523-478d9b44cb26")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "LED21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 136.525 125.73 0)
 		(mirror y)
@@ -6803,651 +6320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 90.17 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ad785a7")
-		(property "Reference" "LED24"
-			(at 99.568 129.54 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 102.108 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "corne-chocolate:SK6812MINI_underglow_rev"
-			(at 88.9 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 87.63 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07814a73-b7b3-4f9c-b266-8612f69edb7b")
-		)
-		(pin "2"
-			(uuid "ae1b84f2-99ae-4c2a-93ab-abf8aef4d2b0")
-		)
-		(pin "3"
-			(uuid "2f99d125-f1be-4ca0-b41e-e7d3b71293f5")
-		)
-		(pin "4"
-			(uuid "687d938b-9e22-46bb-87bb-6afccd03ae16")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "LED24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 66.04 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ad7881d")
-		(property "Reference" "LED23"
-			(at 75.438 129.54 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 77.47 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "corne-chocolate:SK6812MINI_underglow_rev"
-			(at 64.77 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 63.5 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcd7e2a0-2059-44e2-ab37-e9f88c3bf7ab")
-		)
-		(pin "2"
-			(uuid "037a7b22-4e67-4254-9ac2-963bd9fd82e1")
-		)
-		(pin "3"
-			(uuid "ed4ca8f5-7977-46bf-a1c6-6d8a2dd1ee86")
-		)
-		(pin "4"
-			(uuid "2c2dcd9c-226b-41da-8b70-07d41fca36a1")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "LED23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 41.91 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ad78a03")
-		(property "Reference" "LED22"
-			(at 51.308 129.54 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 53.34 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "corne-chocolate:SK6812MINI_underglow_rev"
-			(at 40.64 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 39.37 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eca5852e-c752-422d-be4f-42b67dfad990")
-		)
-		(pin "2"
-			(uuid "881f282d-a83f-486b-8001-5e0533aae318")
-		)
-		(pin "3"
-			(uuid "dfc160b8-bb28-46ec-b4a4-5ec34aaecb60")
-		)
-		(pin "4"
-			(uuid "f8718d1a-b8ee-4173-a7ca-beaa5af7b7a0")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "LED22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 77.47 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ad78cf3")
-		(property "Reference" "LED27"
-			(at 86.614 153.67 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 88.9 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "corne-chocolate:SK6812MINI_underglow_rev"
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 80.01 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 77.47 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4205fced-e51a-4f6b-8717-f4c6df06970e")
-		)
-		(pin "2"
-			(uuid "353b07bb-3e91-4263-9428-f1ab81c21961")
-		)
-		(pin "3"
-			(uuid "8574ed14-dbef-4b5c-9b55-097894aa810a")
-		)
-		(pin "4"
-			(uuid "2f0eee0e-4aef-4481-8085-70412866f47f")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "LED27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 53.34 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ad78cf9")
-		(property "Reference" "LED26"
-			(at 62.484 153.67 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 64.77 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "corne-chocolate:SK6812MINI_underglow_rev"
-			(at 54.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 55.88 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 53.34 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2231a192-d660-4eae-a8ad-029009da0d34")
-		)
-		(pin "2"
-			(uuid "84091fa8-11df-4451-bb57-d82c0e41274d")
-		)
-		(pin "3"
-			(uuid "fe1f852b-650f-4fae-98d7-720e3ee51995")
-		)
-		(pin "4"
-			(uuid "a80eafd2-0443-4550-ac19-3a2332e3b35b")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "LED26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI")
-		(at 29.21 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ad78cff")
-		(property "Reference" "LED25"
-			(at 38.354 153.67 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI"
-			(at 40.64 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "corne-chocolate:SK6812MINI_underglow_rev"
-			(at 30.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 31.75 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 29.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e227ee11-e27c-4a58-b058-d525b4e8bb4b")
-		)
-		(pin "2"
-			(uuid "4a4ea039-5eea-4ca3-a75e-477ddb9ac0ff")
-		)
-		(pin "3"
-			(uuid "a37fe166-cd2f-4257-b7aa-3dba0ca737dc")
-		)
-		(pin "4"
-			(uuid "ee8a29ee-8a83-434b-be9f-6c66434c2d0e")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "LED25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 90.17 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ad7b57b")
-		(property "Reference" "#PWR026"
-			(at 90.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 90.17 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f11325d-395d-4267-9a99-3cb48c41ce35")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ad7b7ad")
-		(property "Reference" "#PWR028"
-			(at 41.91 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff54380a-0e2f-43eb-bd7e-ec76ba24b075")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00afd8d0-6b92-4eb4-b833-8d016d4d3de7")
-		(property "Reference" "#PWR031"
-			(at 29.21 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c153df6b-c2c1-4222-914e-cadc5451523d")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 175.895 143.51 90)
 		(mirror x)
@@ -7507,70 +6379,6 @@
 			(project "corne-chocolate"
 				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17fa32bf-07a2-4d49-956a-28975e3bce9b")
-		(property "Reference" "#PWR072"
-			(at 101.6 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "011e4e3f-51e1-4fc7-9df5-44b2c8c941aa")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7771,134 +6579,6 @@
 			(project "corne-chocolate"
 				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 41.91 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ecf1e92-809c-45d6-bd57-c3ae4a3e7073")
-		(property "Reference" "#PWR05"
-			(at 41.91 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 41.91 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5f57f6f-6b15-4268-9743-1518c19c95ac")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 66.04 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3496e4ca-5a1e-4eb1-92a6-5b789ad10282")
-		(property "Reference" "#PWR06"
-			(at 66.04 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 66.04 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c83a1814-2f17-4e59-afd6-e493faec8a2d")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8304,134 +6984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 101.6 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "563783d7-f3e5-416c-98a0-4e41f6fea568")
-		(property "Reference" "#PWR073"
-			(at 101.6 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 101.6 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cad44970-4632-416d-9080-db03bcd20a4c")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f5a27f5-5c46-4230-9f0e-c346bf579f7d")
-		(property "Reference" "#PWR032"
-			(at 53.34 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7124de2b-9bfe-4aaa-b9e2-646f5fd0b5ef")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 161.925 143.51 0)
 		(unit 1)
@@ -8638,134 +7190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 77.47 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9dbde767-bdf9-45d4-9e8e-cc69ab229e69")
-		(property "Reference" "#PWR027"
-			(at 77.47 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 77.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c21042b-e126-4a8c-9bfa-dd396e0a8e74")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 53.34 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5cb44fd-278f-40f0-9c34-a022ac8efb8e")
-		(property "Reference" "#PWR034"
-			(at 53.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 53.34 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a72f7f9-a35e-47d9-828c-b1220e721ce2")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 161.925 125.73 0)
 		(unit 1)
@@ -8828,70 +7252,6 @@
 			(project "corne-chocolate"
 				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
 					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6b1c159-4dfb-45a6-a081-7b90ca6c6115")
-		(property "Reference" "#PWR029"
-			(at 66.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e65d42a4-8eb7-4f69-a7b9-2f56971cf215")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9100,134 +7460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 29.21 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddc31aea-f632-48e1-95bb-def2d33dd76b")
-		(property "Reference" "#PWR035"
-			(at 29.21 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 29.21 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "784e62a9-6f44-4a33-ac9a-b9bcac815085")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb84c638-be51-4767-aa62-3c970beb8494")
-		(property "Reference" "#PWR030"
-			(at 90.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c38fed1-9573-4656-a2a3-b6a10e9a71d7")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 161.925 130.81 0)
 		(unit 1)
@@ -9422,70 +7654,6 @@
 			(project "corne-chocolate"
 				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb030c45-cce3-4e23-9068-20b0f5b36075")
-		(property "Reference" "#PWR033"
-			(at 77.47 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91083c06-95f9-4668-bf56-0eae14f52160")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
