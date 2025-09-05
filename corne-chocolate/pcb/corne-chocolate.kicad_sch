@@ -2083,12 +2083,6 @@
 		(uuid "29d09990-ee43-436c-9304-6f52e90eeaf8")
 	)
 	(junction
-		(at 219.71 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bf9a78a-b612-417d-962f-302e62b2ce57")
-	)
-	(junction
 		(at 73.66 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2488,16 +2482,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 138.43) (xy 210.82 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f11cb1c-3f04-4f74-b036-50874bbb496f")
-	)
-	(wire
-		(pts
 			(xy 141.605 120.65) (xy 154.305 120.65)
 		)
 		(stroke
@@ -2885,16 +2869,6 @@
 			(type default)
 		)
 		(uuid "5a141cbf-136d-4085-9e41-d8f768ffa5f0")
-	)
-	(wire
-		(pts
-			(xy 210.82 127) (xy 219.71 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac7a802-e6be-4750-99f6-1430e81bd088")
 	)
 	(wire
 		(pts
@@ -3385,16 +3359,6 @@
 			(type default)
 		)
 		(uuid "a7631406-faf7-4e0a-ac72-67037c4f35ad")
-	)
-	(wire
-		(pts
-			(xy 210.82 127) (xy 210.82 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9703877-4213-477c-83a0-77897f3a1b07")
 	)
 	(polyline
 		(pts
@@ -5877,73 +5841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 210.82 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "460faf21-9de5-48e9-bcac-8ca856b91f65")
-		(property "Reference" "J4"
-			(at 212.09 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery"
-			(at 214.63 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 210.82 134.366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 134.366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 210.82 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca23eef5-f877-4979-8842-b12c13532932")
-		)
-		(pin "2"
-			(uuid "5b7c5ecb-92ac-4945-ac27-a0b44b03409d")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 161.925 140.97 0)
 		(unit 1)
@@ -6169,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "corne-chocolate:JST_PH_S2B-K_doublesided"
 			(at 219.71 134.366 90)
 			(effects
 				(font
@@ -7067,70 +6964,6 @@
 			(project "corne-chocolate"
 				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
 					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5c015e1-9916-41f1-b4cc-1df5e2b36f23")
-		(property "Reference" "#PWR015"
-			(at 210.82 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e6700d5-6032-4aa8-8fdb-e3f8013270aa")
-		)
-		(instances
-			(project "corne-chocolate"
-				(path "/b2404ab0-025a-473e-9fbb-0abc932972cf"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
